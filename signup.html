@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="URF-8">
+        <meta name="author" content="RRD">
+        <meta name="describtion" content="The Little RRD Restarant">
+        <title>RESTAURANT SIGNUP</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"  />
+        <link rel="icon" href="img/pexels-sevenstorm-juhaszimrus-833487.jpg">
+        <link rel="stylesheet" href="css/style.css">
+        </head>
+    <body>
+        <header>
+            <h1>THE LITTLE RRD RESTAURANT SIGN-UP</h1>
+            <nav>
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="/#about">ABOUT LRR</a></li>
+                    <li><a href="/#menu">OUR MENU</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                    <li><a href="hours.html">CONTACT US</a></li>
+                </ul>
+            </nav>
+            <figure>
+                <img src="img/pexels-kevin-bidwell-1376412.jpg" alt="RRD RESTAURANT" title="RRD" width="400" height="250" loading="lazy">
+                <figcaption>WELCOME &amp;  TO OUR SIGNUP PAGE</figcaption>
+            </figure>
+        </header>
+        <hr>
+        <main>
+            <section>
+                <h2>SIGNUP &amp; REGISTRATION</h2>
+                <p>I WOULD LIKE TO HEAR FROM YOU..</p>
+                <form action="//httpbin.org/get" method="get">
+                    <fieldset>
+                        <legend>RRD RESTAURANT SIGNUP</legend>
+                    <p><label for="username">USERNAME:</label>
+                    <input type="text" name="username" id="username" placeholder="ENTER YOUR USERNAME" required></p>
+                    <p><label for="lastname">LASTNAME:</label>
+                    <input type="text" name="lastname" id="lastname" placeholder="ENTER YOUR LASTNAME" required ></p>
+                    <p><label for="password">PASSWORD</label>
+                    <input type="text" name="password" id="password" placeholder="ENTER YOUR PASSWORD" required></p>
+                    <p><label for="phone">PHONE NUMBER:</label>
+                    <input type="tel" name="phone" id="phone" placeholder="9999999999" pattern="[0-9]{3} [0-9]{3} [0-9]{4}"></p>
+                    <p><label for="decade">FAVORITE DECADE:</label>
+                    <input type="number" name="decade" id="decade" min="2000" max="2030" value="2015" step="5"></p>
+                    <p>
+                        <label for="content">FAVORITE CONTENT:</label>
+                        <input type="text" name="content" id="content" list="content-list"><datalist id="content-list">
+                            <option value="CHICKEN BRIYANI">
+                                <option value="BUTTON BRIYANI">
+
+                        </datalist>
+                    </p>
+                <p><label for="message">MESSAGE:</label>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="ENTER HERE....."></textarea>
+                </p>
+                <button type="submit">SEND</button>
+                <button type="reset">RESET</button>
+                        
+                    </fieldset>
+                        
+                    
+
+                </form>
+            </section>
+        </main>
+        </body>
+        </html>
